@@ -1,0 +1,29 @@
+/* Estilos gerais */
+body {
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/* Cartões do formulário */
+.exp-item, .form-item, .ref-item {
+  background: #ffffff;
+}
+
+/* Aparência de links e botões em impressão */
+@media print {
+  a[href]:after { content: ""; }
+  .btn { display: none !important; }
+}
+
+/* Título da seção do formulário */
+.card-title {
+  font-weight: 700;
+}
+
+/* Pequeno ajuste visual */
+.cv-container {
+  border-radius: 12px;
+}
